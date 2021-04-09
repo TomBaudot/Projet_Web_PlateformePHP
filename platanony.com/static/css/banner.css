@@ -1,0 +1,19 @@
+.banner {
+    min-height: 500px;
+    background-image: url("../images/background.png");
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+.login_div{
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 4%;
+    width: 30%;
+    background-color: rgba(220, 220, 220, 0.1);
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+}
+
+
+
+

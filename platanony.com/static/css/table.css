@@ -1,0 +1,75 @@
+#centered{
+  text-align: center;
+
+}
+
+#dropdown_container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+#dropdown_container select {
+         font-family: 'Arial';
+         display: inline-block;
+         width: 100%;
+         cursor: pointer;
+         padding: 10px 15px;
+         outline: 0;
+         border: 1px solid #000000;
+         border-radius: 3px;
+         background: #373d43;
+         color: #FFFFFF;
+         appearance: none;
+         -webkit-appearance: none;
+         -moz-appearance: none;
+}
+
+#dropdown_container select::-ms-expand {
+    display: none;
+}
+#dropdown_container select:hover,
+#dropdown_container select:focus {
+    color: #FFFFFF;
+    background: #373d43;
+}
+#dropdown_container select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+#dropdown_container select:hover ~ .select_arrow,
+#dropdown_container select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+#dropdown_container select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+
+table#table-orange {
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    background-color: #343a40;
+}
+
+#table-orange th,
+table#table-orange td {
+    border: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+#tickets {
+    align-content: center;
+    color:orange;
+}
